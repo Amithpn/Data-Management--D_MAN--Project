@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html ng-app="salesApp">
+<head>
+<meta charset="ISO-8859-1">
+<title>Data Management</title>
+<script src="js/angularjs/angular.min.js"></script>
+<script type="text/javascript" src="js/sales/salesDetails.js"></script>
+<link rel="stylesheet" type="text/css"
+	href="css/style.css">
+</head>
+<body>
+<h1>Data Management</h1>
+<div ng-controller="salesDetailsController">
+<div ng-include="'Menu.html'">
+</div>
+<div ng-include="'Home.html'">
+</div>
+<div ng-include="'PurchaseOrder.html'">
+</div>
+<div ng-include="'Quotation.html'">
+</div>
+<div ng-include="'Enquiry.html'">
+</div>
+<div ng-include="'Inventory.html'">
+</div>
+<div ng-include="'Sales.html'">
+</div>
+<div ng-include="'InwardDC.html'">
+</div>
+<div ng-include="'ItemMaster.html'">
+</div>
+<div ng-include="'Vendor.html'">
+</div>
+</div>
+</body>
+</html>
